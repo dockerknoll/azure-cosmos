@@ -3,6 +3,8 @@
 const CosmosClient = require("@azure/cosmos").CosmosClient;
 const config = require("./config");
 const dbContext = require("./data/databaseContext");
+const endpoint = "https://cosmosdb-uat.mongo.cosmos.azure.com:443/";
+const key = "6WkwU43JxXwZpxI2P0gloixPQHGFZ5GOWbZVF5HiAjewMb3uV8Ek3ycUPZyGu28h0qkOzl3ggGoy1jCLIPRepw==";
 //  </ImportConfiguration>
 
 //  <DefineNewItem>
